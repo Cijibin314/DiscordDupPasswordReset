@@ -1,4 +1,4 @@
-let socket = new WebSocket("https://discorddupbackend.onrender.com");
+let socket = new WebSocket("http://localhost:8080");
 socket.onopen = function(e) {
   //alert("[open] Connection established");
   console.log("Connected")
