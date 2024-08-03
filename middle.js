@@ -3,7 +3,7 @@ socket.onopen = function(e) {
   //alert("[open] Connection established");
   console.log("Connected")
   socket.send(globalUsername)
-  console.log("Sent: ", globalUsername)
+  console.log("Sent: ", globalUsername) 
 };
 
 socket.onmessage = function(event) {
